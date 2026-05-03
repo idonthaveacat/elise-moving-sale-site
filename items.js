@@ -1,5 +1,44 @@
 window.MOVING_SALE_ITEMS = [
   {
+    "id": "0e0eacb9-669c-4d53-9eea-7756e4a19501",
+    "name": "Office Chair",
+    "description": "Light ergonomic chair with adjustable height and lumbar support.\nCan deliver.",
+    "category": "Furniture",
+    "status": "available",
+    "size": "",
+    "productLink": "https://www.amazon.com/dp/B0D3DVJ1XN?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1",
+    "price": 20,
+    "photos": [
+      "images/office-chair-0e0eacb9-01.jpg"
+    ]
+  },
+  {
+    "id": "e74ba082-eccc-4b30-bc3a-692acb2a86f6",
+    "name": "Small faux Christmas Tree",
+    "description": "Small Christmas tree with built in string lights.\nCan deliver.",
+    "category": "Home Decor",
+    "status": "available",
+    "size": "",
+    "productLink": "",
+    "price": 15,
+    "photos": [
+      "images/small-faux-christmas-tree-e74ba082-01.jpg"
+    ]
+  },
+  {
+    "id": "30fe7836-5d59-43bd-90a2-834def197e9b",
+    "name": "Instant Pot Duo",
+    "description": "Used but in good condition. All the cooking modes work as expected.\nCan deliver.",
+    "category": "Kitchen/Cooking",
+    "status": "available",
+    "size": "",
+    "productLink": "",
+    "price": 25,
+    "photos": [
+      "images/instant-pot-duo-30fe7836-01.jpg"
+    ]
+  },
+  {
     "id": "4565740c-1c5f-4df5-89b4-0faa04a444ba",
     "name": "Shelf",
     "description": "Used but in good condition.\nCan deliver",
