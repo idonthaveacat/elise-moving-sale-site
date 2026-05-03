@@ -1,5 +1,47 @@
 window.MOVING_SALE_ITEMS = [
   {
+    "id": "4565740c-1c5f-4df5-89b4-0faa04a444ba",
+    "name": "Shelf",
+    "description": "Used but in good condition.\nCan deliver",
+    "category": "Furniture",
+    "status": "available",
+    "size": "24\" W x 11.5\"D x 34.5\" H",
+    "productLink": "",
+    "price": 15,
+    "photos": [
+      "images/shelf-4565740c-02.jpg",
+      "images/shelf-4565740c-01.jpg"
+    ]
+  },
+  {
+    "id": "0815189e-5f8f-4482-839e-c96cd1252e8c",
+    "name": "Plant/Shoe Stand",
+    "description": "Almost new.\nCan deliver",
+    "category": "Furniture",
+    "status": "available",
+    "size": "24\" L x 9\" W",
+    "productLink": "",
+    "price": 10,
+    "photos": [
+      "images/plant-shoe-stand-0815189e-03.jpg",
+      "images/plant-shoe-stand-0815189e-02.jpg",
+      "images/plant-shoe-stand-0815189e-03-2.jpg"
+    ]
+  },
+  {
+    "id": "795d1c98-442b-4d89-aa7a-e79199e37a76",
+    "name": "Dining Chairs Set",
+    "description": "Set of 4.\nCan deliver",
+    "category": "Furniture",
+    "status": "available",
+    "size": "",
+    "productLink": "",
+    "price": 20,
+    "photos": [
+      "images/dining-chairs-set-795d1c98-01.jpg"
+    ]
+  },
+  {
     "id": "8fe153ff-7265-497c-a3fb-fdcf14570d24",
     "name": "TCL TV",
     "description": "Almost new. Comes with original box\nCan deliver.",
