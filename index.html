@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elise Moving Sale</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <div>
+        <p class="eyebrow">Local pickup moving sale</p>
+        <h1>Elise Moving Sale</h1>
+        <p class="header-summary">Furniture, home goods, clothing, kitchen pieces, and beauty extras looking for their next apartment.</p>
+      </div>
+    </header>
+
+    <main>
+      <section class="toolbar" aria-label="Browse inventory">
+        <div class="search-wrap">
+          <label for="searchInput">Search</label>
+          <input id="searchInput" type="search" placeholder="Search by name or description" />
+        </div>
+
+        <div class="category-tabs" id="categoryTabs" aria-label="Categories"></div>
+      </section>
+
+      <section class="inventory-heading">
+        <div>
+          <h2 id="currentCategoryTitle">All items</h2>
+          <p id="itemCount">0 items available</p>
+        </div>
+      </section>
+
+      <section class="inventory-grid" id="inventoryGrid" aria-live="polite"></section>
+      <section class="empty-state hidden" id="emptyState">
+        <h2>No items found</h2>
+        <p id="emptyStateMessage">Choose a different category or search to keep browsing.</p>
+      </section>
+    </main>
+
+    <dialog class="detail-dialog" id="detailDialog">
+      <div class="detail-layout">
+        <button class="detail-close" id="closeDetailButton" type="button" aria-label="Close item details">&times;</button>
+
+        <section class="carousel" aria-label="Item photos">
+          <div class="carousel-stage" id="carouselStage"></div>
+          <button class="carousel-button previous" id="previousPhotoButton" type="button" aria-label="Previous photo">
+            &#8249;
+          </button>
+          <button class="carousel-button next" id="nextPhotoButton" type="button" aria-label="Next photo">
+            &#8250;
+          </button>
+          <div class="carousel-count" id="carouselCount"></div>
+          <div class="detail-thumbnails" id="detailThumbnails" aria-label="Photo thumbnails"></div>
+        </section>
+
+        <section class="detail-info">
+          <span class="category-label" id="detailCategory"></span>
+          <div class="detail-title-block">
+            <h2 id="detailName"></h2>
+            <div class="detail-price-row">
+              <span class="price" id="detailPrice"></span>
+              <span id="detailStatus"></span>
+            </div>
+          </div>
+          <div class="detail-field hidden" id="detailSizeBlock">
+            <h3>Size</h3>
+            <p id="detailSize"></p>
+          </div>
+          <div class="detail-field">
+            <h3>Description</h3>
+            <p class="detail-description" id="detailDescription"></p>
+          </div>
+          <div class="detail-field hidden" id="detailProductLinkBlock">
+            <h3>Original product link</h3>
+            <p><a id="detailProductLink" target="_blank" rel="noopener noreferrer"></a></p>
+          </div>
+        </section>
+      </div>
+    </dialog>
+
+    <script src="items.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
