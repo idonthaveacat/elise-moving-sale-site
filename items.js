@@ -1,5 +1,60 @@
 window.MOVING_SALE_ITEMS = [
   {
+    "id": "c62330c8-1ee8-4ac1-8822-d1b759cc05ec",
+    "name": "HP 24mh Monitor",
+    "description": "Have original packaging.\nCan deliver",
+    "category": "Electronic",
+    "status": "available",
+    "size": "23.8\" Diagonal",
+    "productLink": "https://www.walmart.com/ip/Hp-24Mh-Fhd-Monitor-Computer-Monitor-With-23-8-Inch-Ips-Display-1080P-Buil/176806768?wmlspartner=wlpa&selectedSellerId=4104&sourceid=dsn_gdn_0c92c416-dbd6-42ec-845c-ecf69af2153d&veh=dsn&wmlspartner=dsn_gdn_0c92c416-dbd6-42ec-845c-ecf69af2153d&cn=0042_fy27_mp_mpa_lo_int_dis_pmax-p13n&wl9=pla&wl11=online&gad_source=1&gad_campaignid=23148469844&gbraid=0AAAAADmfBIpxc-AxqbOmqPnSWDBnmMhSL&gclid=CjwKCAjwwpDQBhAuEiwAa-4Wo28QGstAaLon0x7y17aZE8sn3o7W2Lbotc5LHSf2UVM7cRqjrTjBfRoCY",
+    "price": 85,
+    "photos": [
+      "images/hp-24mh-monitor-c62330c8-01.jpg",
+      "images/hp-24mh-monitor-c62330c8-02.jpg"
+    ]
+  },
+  {
+    "id": "9130522a-0730-42ad-b5c3-af21d782edb8",
+    "name": "Extendable shoe rack",
+    "description": "Can deliver",
+    "category": "Furniture",
+    "status": "available",
+    "size": "",
+    "productLink": "",
+    "price": 10,
+    "photos": [
+      "images/extendable-shoe-rack-9130522a-01.jpg",
+      "images/extendable-shoe-rack-9130522a-02.jpg"
+    ]
+  },
+  {
+    "id": "ef9c7c42-1c18-4913-a319-7f68364368ec",
+    "name": "Mini skirt",
+    "description": "Can deliver",
+    "category": "Clothing",
+    "status": "available",
+    "size": "XS/S (2)",
+    "productLink": "",
+    "price": 10,
+    "photos": [
+      "images/mini-skirt-ef9c7c42-01.jpg",
+      "images/mini-skirt-ef9c7c42-02.jpg"
+    ]
+  },
+  {
+    "id": "06fdbc5a-cf47-44ca-800e-50c684bc7d00",
+    "name": "Electric Piano",
+    "description": "KORG SP-250. Used condition\nCan deliver",
+    "category": "Electronic",
+    "status": "available",
+    "size": "",
+    "productLink": "",
+    "price": 150,
+    "photos": [
+      "images/electric-piano-06fdbc5a-01.jpg"
+    ]
+  },
+  {
     "id": "0e0eacb9-669c-4d53-9eea-7756e4a19501",
     "name": "Office Chair",
     "description": "Light ergonomic chair with adjustable height and lumbar support.\nCan deliver.",
@@ -84,7 +139,7 @@ window.MOVING_SALE_ITEMS = [
     "id": "8fe153ff-7265-497c-a3fb-fdcf14570d24",
     "name": "TCL TV",
     "description": "Almost new. Comes with original box\nCan deliver.",
-    "category": "Furniture",
+    "category": "Electronic",
     "status": "available",
     "size": "50\"",
     "productLink": "",

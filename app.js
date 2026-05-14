@@ -1,6 +1,7 @@
 const categories = [
   "Furniture",
   "Home Decor",
+  "Electronic",
   "Clothing",
   "Kitchen/Cooking",
   "Skincare/Makeup",
