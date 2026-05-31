@@ -1,5 +1,179 @@
 window.MOVING_SALE_ITEMS = [
   {
+    "id": "1efd268f-e488-4f67-b0aa-f61c563d8869",
+    "name": "Cider Bodycon Mesh Mini Dress",
+    "description": "In good condition.",
+    "category": "Clothing",
+    "status": "available",
+    "size": "US XS",
+    "productLink": "",
+    "price": 15,
+    "photos": [
+      "images/cider-bodycon-mesh-mini-dress-1efd268f-01.jpg",
+      "images/cider-bodycon-mesh-mini-dress-1efd268f-02.jpg",
+      "images/cider-bodycon-mesh-mini-dress-1efd268f-03.jpg"
+    ]
+  },
+  {
+    "id": "e301992b-62cb-4e97-9d83-4984b6fb9606",
+    "name": "Cider Midi Satin Dress",
+    "description": "In good condition.",
+    "category": "Clothing",
+    "status": "available",
+    "size": "US XS",
+    "productLink": "",
+    "price": 15,
+    "photos": [
+      "images/cider-midi-satin-dress-e301992b-01.jpg",
+      "images/cider-midi-satin-dress-e301992b-02.jpg",
+      "images/cider-midi-satin-dress-e301992b-03.jpg"
+    ]
+  },
+  {
+    "id": "71e54fc3-1f9d-4079-9420-3afeb6c4dce3",
+    "name": "Zara Satin Black Jumpsuit",
+    "description": "Worn once.",
+    "category": "Clothing",
+    "status": "available",
+    "size": "US S",
+    "productLink": "",
+    "price": 20,
+    "photos": [
+      "images/zara-satin-black-jumpsuit-71e54fc3-01.jpg",
+      "images/zara-satin-black-jumpsuit-71e54fc3-02.jpg",
+      "images/zara-satin-black-jumpsuit-71e54fc3-03.jpg"
+    ]
+  },
+  {
+    "id": "734f43d8-547f-4060-bfda-4762f8ae6369",
+    "name": "Zara Pink Midi dress",
+    "description": "In good condition.",
+    "category": "Clothing",
+    "status": "available",
+    "size": "US XS",
+    "productLink": "",
+    "price": 20,
+    "photos": [
+      "images/zara-pink-midi-dress-734f43d8-01.jpg",
+      "images/zara-pink-midi-dress-734f43d8-02.jpg",
+      "images/zara-pink-midi-dress-734f43d8-03.jpg"
+    ]
+  },
+  {
+    "id": "81473138-6e04-4800-883e-faef91ec4467",
+    "name": "Aritzia Wilfred Saturn Mini Dress",
+    "description": "In good condition. Product link included for reference.",
+    "category": "Clothing",
+    "status": "available",
+    "size": "XS, Coral",
+    "productLink": "https://www.aritzia.com/us/en/product/saturn-mini-dress/114666.html?color=32376",
+    "price": 15,
+    "photos": [
+      "images/aritzia-wilfred-saturn-mini-dress-81473138-01.jpg",
+      "images/aritzia-wilfred-saturn-mini-dress-81473138-02.jpg"
+    ]
+  },
+  {
+    "id": "3c605a7c-9bea-4039-9f92-bcb7582dbef8",
+    "name": "Zara Crepe Wide Leg Pants",
+    "description": "Light flowy pants in good condition.",
+    "category": "Clothing",
+    "status": "available",
+    "size": "US XS",
+    "productLink": "",
+    "price": 15,
+    "photos": [
+      "images/zara-crepe-wide-leg-pants-3c605a7c-01.jpg",
+      "images/zara-crepe-wide-leg-pants-3c605a7c-03.jpg",
+      "images/zara-crepe-wide-leg-pants-3c605a7c-02.jpg"
+    ]
+  },
+  {
+    "id": "8949d48b-25d6-4d54-bd5a-ffdf22c98184",
+    "name": "Lee Midrise Denim Jeans",
+    "description": "In great condition. Straight leg fit.",
+    "category": "Clothing",
+    "status": "available",
+    "size": "27",
+    "productLink": "",
+    "price": 25,
+    "photos": [
+      "images/lee-midrise-denim-jeans-8949d48b-01.jpg",
+      "images/lee-midrise-denim-jeans-8949d48b-02.jpg",
+      "images/lee-midrise-denim-jeans-8949d48b-03.jpg"
+    ]
+  },
+  {
+    "id": "8fd792a0-8cec-48d3-bf7c-2aa67686c243",
+    "name": "Zara Zebra Print Skirt",
+    "description": "In good condition. Come with belt with metal buckle.",
+    "category": "Clothing",
+    "status": "available",
+    "size": "Small",
+    "productLink": "",
+    "price": 20,
+    "photos": [
+      "images/zara-zebra-print-skirt-8fd792a0-01.jpg",
+      "images/zara-zebra-print-skirt-8fd792a0-02.jpg"
+    ]
+  },
+  {
+    "id": "e0bdfca1-012f-453f-9bdc-3a83be9de200",
+    "name": "Stainless steel pot with steamer",
+    "description": "In great condition. Can deliver",
+    "category": "Kitchen/Cooking",
+    "status": "available",
+    "size": "",
+    "productLink": "",
+    "price": 30,
+    "photos": [
+      "images/stainless-steel-pot-with-steamer-e0bdfca1-01.jpg",
+      "images/stainless-steel-pot-with-steamer-e0bdfca1-02.jpg"
+    ]
+  },
+  {
+    "id": "e7e63dbc-5eb5-42fb-8917-6fcfcd41eb6a",
+    "name": "Extendable dining table",
+    "description": "Extendable dining table in great condition. Can sit 6-8 max.\nCan deliver.",
+    "category": "Furniture",
+    "status": "available",
+    "size": "27.5\" x 31.5\"/47.5\" (extended)",
+    "productLink": "",
+    "price": 45,
+    "photos": [
+      "images/extendable-dining-table-e7e63dbc-01.jpg",
+      "images/extendable-dining-table-e7e63dbc-02.jpg",
+      "images/extendable-dining-table-e7e63dbc-03.jpg"
+    ]
+  },
+  {
+    "id": "319f9e13-2dea-4537-8ec0-5208af8a6e84",
+    "name": "Hotpot pot",
+    "description": "In very good condition. Has separation in the middle and come with 2 ladles (standard and strainer).\nCan deliver",
+    "category": "Kitchen/Cooking",
+    "status": "available",
+    "size": "",
+    "productLink": "",
+    "price": 20,
+    "photos": [
+      "images/hotpot-pot-319f9e13-01.jpg",
+      "images/hotpot-pot-319f9e13-02.jpg"
+    ]
+  },
+  {
+    "id": "7f16c3f7-106b-406d-9588-0787e6855ae3",
+    "name": "Electric stove",
+    "description": "Used but in great condition! Come with product manual.\nCan deliver.",
+    "category": "Kitchen/Cooking",
+    "status": "available",
+    "size": "",
+    "productLink": "",
+    "price": 40,
+    "photos": [
+      "images/electric-stove-7f16c3f7-01.jpg"
+    ]
+  },
+  {
     "id": "c62330c8-1ee8-4ac1-8822-d1b759cc05ec",
     "name": "HP 24mh Monitor",
     "description": "Have original packaging.\nCan deliver",
@@ -11,20 +185,6 @@ window.MOVING_SALE_ITEMS = [
     "photos": [
       "images/hp-24mh-monitor-c62330c8-01.jpg",
       "images/hp-24mh-monitor-c62330c8-02.jpg"
-    ]
-  },
-  {
-    "id": "9130522a-0730-42ad-b5c3-af21d782edb8",
-    "name": "Extendable shoe rack",
-    "description": "Can deliver",
-    "category": "Furniture",
-    "status": "available",
-    "size": "",
-    "productLink": "",
-    "price": 10,
-    "photos": [
-      "images/extendable-shoe-rack-9130522a-01.jpg",
-      "images/extendable-shoe-rack-9130522a-02.jpg"
     ]
   },
   {
@@ -46,7 +206,7 @@ window.MOVING_SALE_ITEMS = [
     "name": "Electric Piano",
     "description": "KORG SP-250. Used condition\nCan deliver",
     "category": "Electronic",
-    "status": "available",
+    "status": "hold",
     "size": "",
     "productLink": "",
     "price": 150,
