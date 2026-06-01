@@ -1,5 +1,34 @@
 window.MOVING_SALE_ITEMS = [
   {
+    "id": "22057063-acb7-4d5c-aa95-b1357babcc3e",
+    "name": "Crop Sweater",
+    "description": "In good condition.",
+    "category": "Clothing",
+    "status": "available",
+    "size": "Small",
+    "productLink": "",
+    "price": 5,
+    "photos": [
+      "images/crop-sweater-22057063-01.jpg",
+      "images/crop-sweater-22057063-02.jpg"
+    ]
+  },
+  {
+    "id": "6d2c42b5-674b-42aa-a2cb-01d539880137",
+    "name": "Turtleneck Sweater",
+    "description": "In good condition.",
+    "category": "Clothing",
+    "status": "available",
+    "size": "S/M",
+    "productLink": "",
+    "price": 10,
+    "photos": [
+      "images/turtleneck-sweater-6d2c42b5-01.jpg",
+      "images/turtleneck-sweater-6d2c42b5-02.jpg",
+      "images/turtleneck-sweater-6d2c42b5-03.jpg"
+    ]
+  },
+  {
     "id": "1efd268f-e488-4f67-b0aa-f61c563d8869",
     "name": "Cider Bodycon Mesh Mini Dress",
     "description": "In good condition.",
