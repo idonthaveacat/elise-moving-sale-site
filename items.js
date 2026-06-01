@@ -1,5 +1,20 @@
 window.MOVING_SALE_ITEMS = [
   {
+    "id": "a829a6a0-22fa-4f4e-b96f-bac0e5758c40",
+    "name": "Zara Light Coat",
+    "description": "Trench coat style (I think?). Worn once.",
+    "category": "Clothing",
+    "status": "available",
+    "size": "S/M",
+    "productLink": "",
+    "price": 30,
+    "photos": [
+      "images/zara-light-coat-a829a6a0-03.jpg",
+      "images/zara-light-coat-a829a6a0-01.jpg",
+      "images/zara-light-coat-a829a6a0-02.jpg"
+    ]
+  },
+  {
     "id": "22057063-acb7-4d5c-aa95-b1357babcc3e",
     "name": "Crop Sweater",
     "description": "In good condition.",
