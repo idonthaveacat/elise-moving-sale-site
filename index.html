@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Elise Moving Sale</title>
     <link rel="icon" href="data:," />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=4302bc1d72" />
   </head>
   <body>
     <header class="app-header">
@@ -81,7 +81,15 @@
       </div>
     </dialog>
 
-    <script src="items.js"></script>
-    <script src="app.js"></script>
+    <script>
+      const itemsScript = document.createElement("script");
+      itemsScript.src = "items.js?v=" + Date.now();
+      itemsScript.onload = () => {
+        const appScript = document.createElement("script");
+        appScript.src = "app.js?v=4302bc1d72";
+        document.body.append(appScript);
+      };
+      document.body.append(itemsScript);
+    </script>
   </body>
 </html>
