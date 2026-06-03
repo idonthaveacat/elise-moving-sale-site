@@ -191,33 +191,6 @@ window.MOVING_SALE_ITEMS = [
     ]
   },
   {
-    "id": "319f9e13-2dea-4537-8ec0-5208af8a6e84",
-    "name": "Hotpot pot",
-    "description": "In very good condition. Has separation in the middle and come with 2 ladles (standard and strainer).\nCan deliver",
-    "category": "Kitchen/Cooking",
-    "status": "hold",
-    "size": "",
-    "productLink": "",
-    "price": 20,
-    "photos": [
-      "images/hotpot-pot-319f9e13-01.jpg",
-      "images/hotpot-pot-319f9e13-02.jpg"
-    ]
-  },
-  {
-    "id": "7f16c3f7-106b-406d-9588-0787e6855ae3",
-    "name": "Electric stove",
-    "description": "Used but in great condition! Come with product manual.\nCan deliver.",
-    "category": "Kitchen/Cooking",
-    "status": "hold",
-    "size": "",
-    "productLink": "",
-    "price": 40,
-    "photos": [
-      "images/electric-stove-7f16c3f7-01.jpg"
-    ]
-  },
-  {
     "id": "c62330c8-1ee8-4ac1-8822-d1b759cc05ec",
     "name": "HP 24mh Monitor",
     "description": "Have original packaging.\nCan deliver",
@@ -263,7 +236,7 @@ window.MOVING_SALE_ITEMS = [
     "name": "Small faux Christmas Tree",
     "description": "Small Christmas tree with built in string lights.\nCan deliver.",
     "category": "Home Decor",
-    "status": "available",
+    "status": "hold",
     "size": "",
     "productLink": "",
     "price": 15,
@@ -314,19 +287,6 @@ window.MOVING_SALE_ITEMS = [
     ]
   },
   {
-    "id": "795d1c98-442b-4d89-aa7a-e79199e37a76",
-    "name": "Dining Chairs Set",
-    "description": "Set of 4.\nCan deliver",
-    "category": "Furniture",
-    "status": "hold",
-    "size": "",
-    "productLink": "",
-    "price": 20,
-    "photos": [
-      "images/dining-chairs-set-795d1c98-01.jpg"
-    ]
-  },
-  {
     "id": "1ce94f49-c29e-482e-a189-eba728507202",
     "name": "Yoga Ball",
     "description": "Almost new. Come with air pump.\nCan deliever",
@@ -352,20 +312,6 @@ window.MOVING_SALE_ITEMS = [
     "photos": [
       "images/full-length-mirror-9d4105ad-01.jpg",
       "images/full-length-mirror-9d4105ad-02.jpg"
-    ]
-  },
-  {
-    "id": "3260df25-9b81-42d7-9003-5ebc4b7bb98a",
-    "name": "Coffee table",
-    "description": "Sturdy, almost new condition. \nPick up only",
-    "category": "Furniture",
-    "status": "hold",
-    "size": "44\"W x 21.97\"D x 20\"H",
-    "productLink": "https://www.amazon.com/Linon-Home-86151GRY01U-86151Gry01U-RusticCoffee/dp/B00Y5ODVH6?th=1",
-    "price": 30,
-    "photos": [
-      "images/coffee-table-3260df25-01.jpg",
-      "images/coffee-table-3260df25-02.jpg"
     ]
   }
 ];
