@@ -8,6 +8,7 @@ window.MOVING_SALE_ITEMS = [
     "size": "US 6.5",
     "productLink": "",
     "price": 20,
+    "compareAtPrice": "",
     "photos": [
       "images/puma-club-ii-era-sneakers-fbf3d88d-01.jpg"
     ]
@@ -21,6 +22,7 @@ window.MOVING_SALE_ITEMS = [
     "size": "US 6.5/7",
     "productLink": "",
     "price": 20,
+    "compareAtPrice": "",
     "photos": [
       "images/aldo-heels-2b022b3d-01.jpg",
       "images/aldo-heels-2b022b3d-02.jpg",
@@ -36,6 +38,7 @@ window.MOVING_SALE_ITEMS = [
     "size": "45\" H",
     "productLink": "",
     "price": 20,
+    "compareAtPrice": "",
     "photos": [
       "images/standing-fan-e4ac6770-01.jpg",
       "images/standing-fan-e4ac6770-02.jpg"
@@ -50,6 +53,7 @@ window.MOVING_SALE_ITEMS = [
     "size": "17.5\" D x 20.5\" H",
     "productLink": "",
     "price": 20,
+    "compareAtPrice": "",
     "photos": [
       "images/side-table-cd1a1bab-01.jpg"
     ]
@@ -63,6 +67,7 @@ window.MOVING_SALE_ITEMS = [
     "size": "61\" x 89\"",
     "productLink": "",
     "price": 30,
+    "compareAtPrice": "",
     "photos": [
       "images/large-area-rug-2af94227-01.jpg"
     ]
@@ -76,6 +81,7 @@ window.MOVING_SALE_ITEMS = [
     "size": "S/M",
     "productLink": "",
     "price": 30,
+    "compareAtPrice": "",
     "photos": [
       "images/zara-light-coat-a829a6a0-03.jpg",
       "images/zara-light-coat-a829a6a0-01.jpg",
@@ -91,6 +97,7 @@ window.MOVING_SALE_ITEMS = [
     "size": "Small",
     "productLink": "",
     "price": 5,
+    "compareAtPrice": "",
     "photos": [
       "images/crop-sweater-22057063-01.jpg",
       "images/crop-sweater-22057063-02.jpg"
@@ -105,6 +112,7 @@ window.MOVING_SALE_ITEMS = [
     "size": "S/M",
     "productLink": "",
     "price": 10,
+    "compareAtPrice": "",
     "photos": [
       "images/turtleneck-sweater-6d2c42b5-01.jpg",
       "images/turtleneck-sweater-6d2c42b5-02.jpg",
@@ -120,6 +128,7 @@ window.MOVING_SALE_ITEMS = [
     "size": "US XS",
     "productLink": "",
     "price": 15,
+    "compareAtPrice": "",
     "photos": [
       "images/cider-bodycon-mesh-mini-dress-1efd268f-01.jpg",
       "images/cider-bodycon-mesh-mini-dress-1efd268f-02.jpg",
@@ -135,6 +144,7 @@ window.MOVING_SALE_ITEMS = [
     "size": "US XS",
     "productLink": "",
     "price": 15,
+    "compareAtPrice": "",
     "photos": [
       "images/cider-midi-satin-dress-e301992b-01.jpg",
       "images/cider-midi-satin-dress-e301992b-02.jpg",
@@ -150,6 +160,7 @@ window.MOVING_SALE_ITEMS = [
     "size": "US S",
     "productLink": "",
     "price": 20,
+    "compareAtPrice": "",
     "photos": [
       "images/zara-satin-black-jumpsuit-71e54fc3-01.jpg",
       "images/zara-satin-black-jumpsuit-71e54fc3-02.jpg",
@@ -165,6 +176,7 @@ window.MOVING_SALE_ITEMS = [
     "size": "US XS",
     "productLink": "",
     "price": 20,
+    "compareAtPrice": "",
     "photos": [
       "images/zara-pink-midi-dress-734f43d8-01.jpg",
       "images/zara-pink-midi-dress-734f43d8-02.jpg",
@@ -180,6 +192,7 @@ window.MOVING_SALE_ITEMS = [
     "size": "XS, Coral",
     "productLink": "https://www.aritzia.com/us/en/product/saturn-mini-dress/114666.html?color=32376",
     "price": 15,
+    "compareAtPrice": "",
     "photos": [
       "images/aritzia-wilfred-saturn-mini-dress-81473138-01.jpg",
       "images/aritzia-wilfred-saturn-mini-dress-81473138-02.jpg"
@@ -194,6 +207,7 @@ window.MOVING_SALE_ITEMS = [
     "size": "US XS",
     "productLink": "",
     "price": 15,
+    "compareAtPrice": "",
     "photos": [
       "images/zara-crepe-wide-leg-pants-3c605a7c-01.jpg",
       "images/zara-crepe-wide-leg-pants-3c605a7c-03.jpg",
@@ -209,6 +223,7 @@ window.MOVING_SALE_ITEMS = [
     "size": "27",
     "productLink": "",
     "price": 25,
+    "compareAtPrice": "",
     "photos": [
       "images/lee-midrise-denim-jeans-8949d48b-01.jpg",
       "images/lee-midrise-denim-jeans-8949d48b-02.jpg",
@@ -224,6 +239,7 @@ window.MOVING_SALE_ITEMS = [
     "size": "Small",
     "productLink": "",
     "price": 20,
+    "compareAtPrice": "",
     "photos": [
       "images/zara-zebra-print-skirt-8fd792a0-01.jpg",
       "images/zara-zebra-print-skirt-8fd792a0-02.jpg"
@@ -253,6 +269,7 @@ window.MOVING_SALE_ITEMS = [
     "size": "27.5\" x 31.5\"/47.5\" (extended)",
     "productLink": "",
     "price": 45,
+    "compareAtPrice": "",
     "photos": [
       "images/extendable-dining-table-e7e63dbc-01.jpg",
       "images/extendable-dining-table-e7e63dbc-02.jpg",
@@ -267,7 +284,8 @@ window.MOVING_SALE_ITEMS = [
     "status": "available",
     "size": "23.8\" Diagonal",
     "productLink": "https://www.walmart.com/ip/Hp-24Mh-Fhd-Monitor-Computer-Monitor-With-23-8-Inch-Ips-Display-1080P-Buil/176806768?wmlspartner=wlpa&selectedSellerId=4104&sourceid=dsn_gdn_0c92c416-dbd6-42ec-845c-ecf69af2153d&veh=dsn&wmlspartner=dsn_gdn_0c92c416-dbd6-42ec-845c-ecf69af2153d&cn=0042_fy27_mp_mpa_lo_int_dis_pmax-p13n&wl9=pla&wl11=online&gad_source=1&gad_campaignid=23148469844&gbraid=0AAAAADmfBIpxc-AxqbOmqPnSWDBnmMhSL&gclid=CjwKCAjwwpDQBhAuEiwAa-4Wo28QGstAaLon0x7y17aZE8sn3o7W2Lbotc5LHSf2UVM7cRqjrTjBfRoCY",
-    "price": 85,
+    "price": 65,
+    "compareAtPrice": 85,
     "photos": [
       "images/hp-24mh-monitor-c62330c8-01.jpg",
       "images/hp-24mh-monitor-c62330c8-02.jpg"
@@ -282,6 +300,7 @@ window.MOVING_SALE_ITEMS = [
     "size": "XS/S (2)",
     "productLink": "",
     "price": 10,
+    "compareAtPrice": "",
     "photos": [
       "images/mini-skirt-ef9c7c42-01.jpg",
       "images/mini-skirt-ef9c7c42-02.jpg"
@@ -296,6 +315,7 @@ window.MOVING_SALE_ITEMS = [
     "size": "",
     "productLink": "",
     "price": 150,
+    "compareAtPrice": "",
     "photos": [
       "images/electric-piano-06fdbc5a-01.jpg"
     ]
@@ -309,6 +329,7 @@ window.MOVING_SALE_ITEMS = [
     "size": "24\" L x 9\" W",
     "productLink": "",
     "price": 10,
+    "compareAtPrice": "",
     "photos": [
       "images/plant-shoe-stand-0815189e-03.jpg",
       "images/plant-shoe-stand-0815189e-02.jpg",
@@ -324,6 +345,7 @@ window.MOVING_SALE_ITEMS = [
     "size": "26\" - 27\" D",
     "productLink": "",
     "price": 10,
+    "compareAtPrice": "",
     "photos": [
       "images/yoga-ball-1ce94f49-01.jpg",
       "images/yoga-ball-1ce94f49-02.jpg"
@@ -338,6 +360,7 @@ window.MOVING_SALE_ITEMS = [
     "size": "63\" H x 20.5\" W",
     "productLink": "",
     "price": 40,
+    "compareAtPrice": "",
     "photos": [
       "images/full-length-mirror-9d4105ad-01.jpg",
       "images/full-length-mirror-9d4105ad-02.jpg"
