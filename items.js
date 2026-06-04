@@ -1,5 +1,73 @@
 window.MOVING_SALE_ITEMS = [
   {
+    "id": "fbf3d88d-b1ca-45c8-ba6e-f1d3b05f96cb",
+    "name": "Puma Club II Era Sneakers",
+    "description": "Only worn a couple of times. They are a little too small and narrow for me.\nCan deliver.",
+    "category": "Furniture",
+    "status": "available",
+    "size": "US 6.5",
+    "productLink": "",
+    "price": 20,
+    "photos": [
+      "images/puma-club-ii-era-sneakers-fbf3d88d-01.jpg"
+    ]
+  },
+  {
+    "id": "2b022b3d-e9e1-4857-b053-af111a79ae60",
+    "name": "Aldo Heels",
+    "description": "Worn twice.\nCan deliver.",
+    "category": "Clothing",
+    "status": "available",
+    "size": "US 6.5/7",
+    "productLink": "",
+    "price": 20,
+    "photos": [
+      "images/aldo-heels-2b022b3d-01.jpg",
+      "images/aldo-heels-2b022b3d-02.jpg",
+      "images/aldo-heels-2b022b3d-03.jpg"
+    ]
+  },
+  {
+    "id": "e4ac6770-e59a-47b8-946c-c894eb629a8f",
+    "name": "Standing Fan",
+    "description": "Standing rotating fan. Has multiple power levels.\nCan deliver.",
+    "category": "Furniture",
+    "status": "available",
+    "size": "45\" H",
+    "productLink": "",
+    "price": 20,
+    "photos": [
+      "images/standing-fan-e4ac6770-01.jpg",
+      "images/standing-fan-e4ac6770-02.jpg"
+    ]
+  },
+  {
+    "id": "cd1a1bab-c630-4f48-857b-8a88accca08d",
+    "name": "Side table",
+    "description": "In great condition.\nCan deliver.",
+    "category": "Furniture",
+    "status": "available",
+    "size": "17.5\" D x 20.5\" H",
+    "productLink": "",
+    "price": 20,
+    "photos": [
+      "images/side-table-cd1a1bab-01.jpg"
+    ]
+  },
+  {
+    "id": "2af94227-7683-4b83-88e6-fb26ff39f663",
+    "name": "Large Area Rug",
+    "description": "In good condition.\nCan deliver",
+    "category": "Furniture",
+    "status": "available",
+    "size": "61\" x 89\"",
+    "productLink": "",
+    "price": 25,
+    "photos": [
+      "images/large-area-rug-2af94227-01.jpg"
+    ]
+  },
+  {
     "id": "a829a6a0-22fa-4f4e-b96f-bac0e5758c40",
     "name": "Zara Light Coat",
     "description": "Trench coat style (I think?). Worn once.",
@@ -229,46 +297,6 @@ window.MOVING_SALE_ITEMS = [
     "price": 150,
     "photos": [
       "images/electric-piano-06fdbc5a-01.jpg"
-    ]
-  },
-  {
-    "id": "e74ba082-eccc-4b30-bc3a-692acb2a86f6",
-    "name": "Small faux Christmas Tree",
-    "description": "Small Christmas tree with built in string lights.\nCan deliver.",
-    "category": "Home Decor",
-    "status": "hold",
-    "size": "",
-    "productLink": "",
-    "price": 15,
-    "photos": [
-      "images/small-faux-christmas-tree-e74ba082-01.jpg"
-    ]
-  },
-  {
-    "id": "30fe7836-5d59-43bd-90a2-834def197e9b",
-    "name": "Instant Pot Duo",
-    "description": "Used but in good condition. All the cooking modes work as expected.\nCan deliver.",
-    "category": "Kitchen/Cooking",
-    "status": "hold",
-    "size": "",
-    "productLink": "",
-    "price": 25,
-    "photos": [
-      "images/instant-pot-duo-30fe7836-01.jpg"
-    ]
-  },
-  {
-    "id": "4565740c-1c5f-4df5-89b4-0faa04a444ba",
-    "name": "Shelf",
-    "description": "Used but in good condition.\nCan deliver",
-    "category": "Furniture",
-    "status": "hold",
-    "size": "24\" W x 11.5\"D x 34.5\" H",
-    "productLink": "",
-    "price": 15,
-    "photos": [
-      "images/shelf-4565740c-02.jpg",
-      "images/shelf-4565740c-01.jpg"
     ]
   },
   {
