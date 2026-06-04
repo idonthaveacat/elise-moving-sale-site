@@ -62,7 +62,7 @@ window.MOVING_SALE_ITEMS = [
     "status": "available",
     "size": "61\" x 89\"",
     "productLink": "",
-    "price": 25,
+    "price": 30,
     "photos": [
       "images/large-area-rug-2af94227-01.jpg"
     ]
@@ -237,7 +237,8 @@ window.MOVING_SALE_ITEMS = [
     "status": "available",
     "size": "",
     "productLink": "",
-    "price": 30,
+    "price": 20,
+    "compareAtPrice": 30,
     "photos": [
       "images/stainless-steel-pot-with-steamer-e0bdfca1-01.jpg",
       "images/stainless-steel-pot-with-steamer-e0bdfca1-02.jpg"

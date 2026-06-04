@@ -245,6 +245,9 @@ textarea {
 
 .item-card.is-sold .price {
   color: var(--muted);
+}
+
+.item-card.is-sold .current-price {
   text-decoration: line-through;
   text-decoration-thickness: 2px;
 }
@@ -362,8 +365,32 @@ textarea {
 
 .price {
   color: var(--accent-dark);
+  display: inline-grid;
   font-weight: 900;
+  gap: 2px;
+  justify-items: end;
+  line-height: 1;
   white-space: nowrap;
+}
+
+.previous-price {
+  color: var(--muted);
+  font-size: 0.78em;
+  text-decoration: line-through;
+  text-decoration-thickness: 1.5px;
+}
+
+.price-drop::after {
+  background: #fff1d9;
+  border-radius: 999px;
+  color: #7a4d05;
+  content: "Price dropped";
+  font-size: 0.64rem;
+  font-weight: 900;
+  justify-self: end;
+  letter-spacing: 0;
+  padding: 4px 7px;
+  text-transform: uppercase;
 }
 
 .category-label {
@@ -597,11 +624,11 @@ body.seller-mode .seller-only {
 
 .detail-title-block .price {
   font-size: 1.6rem;
-  line-height: 1;
+  justify-items: start;
 }
 
 .detail-price-row {
-  align-items: center;
+  align-items: start;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;

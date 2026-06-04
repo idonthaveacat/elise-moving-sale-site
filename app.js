@@ -52,11 +52,18 @@ renderCategoryControls();
 renderInventory();
 
 function normalizeItems(rawItems) {
-  return (Array.isArray(rawItems) ? rawItems : []).map((item) => ({
-    ...item,
-    status: ["available", "hold", "sold"].includes(item.status) ? item.status : "available",
-    photos: Array.isArray(item.photos) ? item.photos : [],
-  }));
+  return (Array.isArray(rawItems) ? rawItems : []).map((item) => {
+    const price = Number(item.price) || 0;
+    const compareAtPrice = Number(item.compareAtPrice) || 0;
+
+    return {
+      ...item,
+      price,
+      compareAtPrice: compareAtPrice > price ? compareAtPrice : "",
+      status: ["available", "hold", "sold"].includes(item.status) ? item.status : "available",
+      photos: Array.isArray(item.photos) ? item.photos : [],
+    };
+  });
 }
 
 function renderCategoryControls() {
@@ -146,7 +153,7 @@ function renderItemCard(item) {
         <span class="category-label">${escapeHtml(item.category)}</span>
         <div class="item-meta">
           <h3>${escapeHtml(item.name)}</h3>
-          <span class="price">${formatPrice(item.price)}</span>
+          ${renderPrice(item)}
         </div>
         ${size}
         <p class="item-description-preview">${escapeHtml(item.description)}</p>
@@ -191,7 +198,7 @@ function openDetailDialog(itemId) {
   activePhotoIndex = 0;
   elements.detailCategory.textContent = item.category;
   elements.detailName.textContent = item.name;
-  elements.detailPrice.textContent = formatPrice(item.price);
+  elements.detailPrice.innerHTML = renderPrice(item);
   elements.detailStatus.innerHTML = renderStatusBadge(item.status);
   elements.detailDescription.textContent = item.description;
   elements.detailSize.textContent = item.size || "";
@@ -279,6 +286,20 @@ function formatPrice(value) {
     currency: "USD",
     maximumFractionDigits: Number.isInteger(value) ? 0 : 2,
   }).format(value);
+}
+
+function renderPrice(item) {
+  const compareAtPrice = Number(item.compareAtPrice) || 0;
+  if (compareAtPrice > item.price) {
+    return `
+      <span class="price price-drop">
+        <span class="current-price">${formatPrice(item.price)}</span>
+        <span class="previous-price">${formatPrice(compareAtPrice)}</span>
+      </span>
+    `;
+  }
+
+  return `<span class="price"><span class="current-price">${formatPrice(item.price)}</span></span>`;
 }
 
 function escapeHtml(value) {
