@@ -1,9 +1,25 @@
 window.MOVING_SALE_ITEMS = [
   {
+    "id": "259e9013-ea16-4c67-b4ec-869fcfbcdcd1",
+    "name": "Desk",
+    "description": "In good condition.\nCan deliver dissembled.",
+    "category": "Furniture",
+    "status": "available",
+    "size": "55\" L x 23.5 W",
+    "productLink": "",
+    "price": 20,
+    "compareAtPrice": "",
+    "photos": [
+      "images/desk-259e9013-01.jpg",
+      "images/desk-259e9013-02.jpg",
+      "images/desk-259e9013-03.jpg"
+    ]
+  },
+  {
     "id": "fbf3d88d-b1ca-45c8-ba6e-f1d3b05f96cb",
     "name": "Puma Club II Era Sneakers",
     "description": "Only worn a couple of times. They are a little too small and narrow for me.\nCan deliver.",
-    "category": "Furniture",
+    "category": "Clothing",
     "status": "available",
     "size": "US 6.5",
     "productLink": "",
