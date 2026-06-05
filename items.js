@@ -50,7 +50,7 @@ window.MOVING_SALE_ITEMS = [
     "name": "Standing Fan",
     "description": "Standing rotating fan. Has multiple power levels.\nCan deliver.",
     "category": "Furniture",
-    "status": "available",
+    "status": "hold",
     "size": "45\" H",
     "productLink": "",
     "price": 20,
@@ -79,7 +79,7 @@ window.MOVING_SALE_ITEMS = [
     "name": "Large Area Rug",
     "description": "In good condition.\nCan deliver",
     "category": "Furniture",
-    "status": "available",
+    "status": "hold",
     "size": "61\" x 89\"",
     "productLink": "",
     "price": 30,
@@ -334,22 +334,6 @@ window.MOVING_SALE_ITEMS = [
     "compareAtPrice": "",
     "photos": [
       "images/electric-piano-06fdbc5a-01.jpg"
-    ]
-  },
-  {
-    "id": "0815189e-5f8f-4482-839e-c96cd1252e8c",
-    "name": "Plant/Shoe Stand",
-    "description": "Almost new.\nCan deliver",
-    "category": "Furniture",
-    "status": "hold",
-    "size": "24\" L x 9\" W",
-    "productLink": "",
-    "price": 10,
-    "compareAtPrice": "",
-    "photos": [
-      "images/plant-shoe-stand-0815189e-03.jpg",
-      "images/plant-shoe-stand-0815189e-02.jpg",
-      "images/plant-shoe-stand-0815189e-03-2.jpg"
     ]
   },
   {
