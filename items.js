@@ -65,7 +65,7 @@ window.MOVING_SALE_ITEMS = [
     "name": "Side table",
     "description": "In great condition.\nCan deliver.",
     "category": "Furniture",
-    "status": "available",
+    "status": "hold",
     "size": "17.5\" D x 20.5\" H",
     "productLink": "",
     "price": 20,
@@ -102,21 +102,6 @@ window.MOVING_SALE_ITEMS = [
       "images/zara-light-coat-a829a6a0-03.jpg",
       "images/zara-light-coat-a829a6a0-01.jpg",
       "images/zara-light-coat-a829a6a0-02.jpg"
-    ]
-  },
-  {
-    "id": "22057063-acb7-4d5c-aa95-b1357babcc3e",
-    "name": "Crop Sweater",
-    "description": "In good condition.",
-    "category": "Clothing",
-    "status": "hold",
-    "size": "Small",
-    "productLink": "",
-    "price": 5,
-    "compareAtPrice": "",
-    "photos": [
-      "images/crop-sweater-22057063-01.jpg",
-      "images/crop-sweater-22057063-02.jpg"
     ]
   },
   {
@@ -281,7 +266,7 @@ window.MOVING_SALE_ITEMS = [
     "name": "Extendable dining table",
     "description": "Extendable dining table in great condition. Can sit 6-8 max.\nCan deliver.",
     "category": "Furniture",
-    "status": "available",
+    "status": "hold",
     "size": "27.5\" x 31.5\"/47.5\" (extended)",
     "productLink": "",
     "price": 45,
@@ -320,50 +305,6 @@ window.MOVING_SALE_ITEMS = [
     "photos": [
       "images/mini-skirt-ef9c7c42-01.jpg",
       "images/mini-skirt-ef9c7c42-02.jpg"
-    ]
-  },
-  {
-    "id": "06fdbc5a-cf47-44ca-800e-50c684bc7d00",
-    "name": "Electric Piano",
-    "description": "KORG SP-250. Used condition\nCan deliver",
-    "category": "Electronic",
-    "status": "hold",
-    "size": "",
-    "productLink": "",
-    "price": 150,
-    "compareAtPrice": "",
-    "photos": [
-      "images/electric-piano-06fdbc5a-01.jpg"
-    ]
-  },
-  {
-    "id": "1ce94f49-c29e-482e-a189-eba728507202",
-    "name": "Yoga Ball",
-    "description": "Almost new. Come with air pump.\nCan deliever",
-    "category": "Furniture",
-    "status": "hold",
-    "size": "26\" - 27\" D",
-    "productLink": "",
-    "price": 10,
-    "compareAtPrice": "",
-    "photos": [
-      "images/yoga-ball-1ce94f49-01.jpg",
-      "images/yoga-ball-1ce94f49-02.jpg"
-    ]
-  },
-  {
-    "id": "9d4105ad-cb3d-4de8-844b-f1e1c16d4543",
-    "name": "Full Length Mirror",
-    "description": "New. \nCan deliver",
-    "category": "Furniture",
-    "status": "hold",
-    "size": "63\" H x 20.5\" W",
-    "productLink": "",
-    "price": 40,
-    "compareAtPrice": "",
-    "photos": [
-      "images/full-length-mirror-9d4105ad-01.jpg",
-      "images/full-length-mirror-9d4105ad-02.jpg"
     ]
   }
 ];

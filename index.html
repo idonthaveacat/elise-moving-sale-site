@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Elise Moving Sale</title>
     <link rel="icon" href="data:," />
-    <link rel="stylesheet" href="styles.css?v=949a600516" />
+    <link rel="stylesheet" href="styles.css?v=26a0688944" />
   </head>
   <body>
     <header class="app-header">
@@ -18,9 +18,16 @@
 
     <main>
       <section class="toolbar" aria-label="Browse inventory">
-        <div class="search-wrap">
-          <label for="searchInput">Search</label>
-          <input id="searchInput" type="search" placeholder="Search by name or description" />
+        <div class="quick-filters">
+          <div class="search-wrap">
+            <label for="searchInput">Search</label>
+            <input id="searchInput" type="search" placeholder="Search" />
+          </div>
+
+          <label class="availability-toggle" for="availableOnlyInput">
+            <input id="availableOnlyInput" type="checkbox" checked />
+            <span>Available only</span>
+          </label>
         </div>
 
         <div class="category-tabs" id="categoryTabs" aria-label="Categories"></div>
@@ -86,7 +93,7 @@
       itemsScript.src = "items.js?v=" + Date.now();
       itemsScript.onload = () => {
         const appScript = document.createElement("script");
-        appScript.src = "app.js?v=949a600516";
+        appScript.src = "app.js?v=26a0688944";
         document.body.append(appScript);
       };
       document.body.append(itemsScript);

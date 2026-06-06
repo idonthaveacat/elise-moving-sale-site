@@ -10,6 +10,7 @@ const categories = [
 let items = normalizeItems(window.MOVING_SALE_ITEMS);
 let activeCategory = "All";
 let searchTerm = "";
+let showAvailableOnly = true;
 let activeDetailItem = null;
 let activePhotoIndex = 0;
 let cardPhotoIndexes = {};
@@ -21,6 +22,7 @@ const elements = {
   itemCount: document.querySelector("#itemCount"),
   emptyState: document.querySelector("#emptyState"),
   searchInput: document.querySelector("#searchInput"),
+  availableOnlyInput: document.querySelector("#availableOnlyInput"),
   emptyStateMessage: document.querySelector("#emptyStateMessage"),
   detailDialog: document.querySelector("#detailDialog"),
   closeDetailButton: document.querySelector("#closeDetailButton"),
@@ -45,6 +47,10 @@ elements.previousPhotoButton.addEventListener("click", () => moveCarousel(-1));
 elements.nextPhotoButton.addEventListener("click", () => moveCarousel(1));
 elements.searchInput.addEventListener("input", (event) => {
   searchTerm = event.target.value.trim().toLowerCase();
+  renderInventory();
+});
+elements.availableOnlyInput.addEventListener("change", (event) => {
+  showAvailableOnly = event.target.checked;
   renderInventory();
 });
 
@@ -90,16 +96,19 @@ function renderCategoryControls() {
 function renderInventory() {
   const visibleItems = items.filter((item) => {
     const matchesCategory = activeCategory === "All" || item.category === activeCategory;
+    const matchesAvailability = !showAvailableOnly || item.status === "available";
     const searchable = `${item.name} ${item.description} ${item.size || ""}`.toLowerCase();
-    return matchesCategory && searchable.includes(searchTerm);
+    return matchesCategory && matchesAvailability && searchable.includes(searchTerm);
   });
 
   elements.currentCategoryTitle.textContent = activeCategory === "All" ? "All items" : activeCategory;
-  const availableCount = visibleItems.filter((item) => item.status !== "sold").length;
+  const availableCount = visibleItems.filter((item) => item.status === "available").length;
   const countLabel = `${visibleItems.length} ${visibleItems.length === 1 ? "item" : "items"}`;
   elements.itemCount.textContent =
     visibleItems.length === availableCount ? `${countLabel} available` : `${countLabel}, ${availableCount} available`;
-  elements.emptyStateMessage.textContent = "Choose a different category or search to keep browsing.";
+  elements.emptyStateMessage.textContent = showAvailableOnly
+    ? "Turn off Available only or choose a different category/search to keep browsing."
+    : "Choose a different category or search to keep browsing.";
   elements.emptyState.classList.toggle("hidden", visibleItems.length > 0);
   elements.inventoryGrid.classList.toggle("hidden", visibleItems.length === 0);
 
