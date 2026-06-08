@@ -1,5 +1,21 @@
 window.MOVING_SALE_ITEMS = [
   {
+    "id": "934b985d-623a-48c7-b2ed-e3027e3698f2",
+    "name": "Jewelry Box",
+    "description": "Had two levels. In good condition.\nCan deliver",
+    "category": "Home Decor",
+    "status": "available",
+    "size": "",
+    "productLink": "",
+    "price": 8,
+    "compareAtPrice": 10,
+    "photos": [
+      "images/jewelry-box-934b985d-01.jpg",
+      "images/jewelry-box-934b985d-02.jpg",
+      "images/jewelry-box-934b985d-03.jpg"
+    ]
+  },
+  {
     "id": "259e9013-ea16-4c67-b4ec-869fcfbcdcd1",
     "name": "Desk",
     "description": "In good condition.\nCan deliver dissembled.",
@@ -26,7 +42,9 @@ window.MOVING_SALE_ITEMS = [
     "price": 20,
     "compareAtPrice": "",
     "photos": [
-      "images/puma-club-ii-era-sneakers-fbf3d88d-01.jpg"
+      "images/puma-club-ii-era-sneakers-fbf3d88d-01.jpg",
+      "images/puma-club-ii-era-sneakers-fbf3d88d-02.jpg",
+      "images/puma-club-ii-era-sneakers-fbf3d88d-03.jpg"
     ]
   },
   {
