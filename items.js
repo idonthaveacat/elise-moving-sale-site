@@ -1,5 +1,21 @@
 window.MOVING_SALE_ITEMS = [
   {
+    "id": "66a81352-a2ad-4b63-baec-4f55412e3078",
+    "name": "Bissel Swivel Vacuum",
+    "description": "In very good condition. The photos are a little dirty but I will clean it up.\nEasy steering with multiple brush heads.\nCan deliver.",
+    "category": "Furniture",
+    "status": "available",
+    "size": "",
+    "productLink": "https://www.amazon.com/Bissell-CleanView-Maneuverability-Scatter-Free-2252/dp/B07F6N3RT6/ref=sr_1_3?adgrpid=187237891198&dib=eyJ2IjoiMSJ9.FocXOAGH6i5LEUSAo3sVz53fkHSOiqyGn4Mgd17K6chLRgScIf8y4fgFTY6wL3Qqhfhfak7P5RttqR4joexaqviVlB-reb7jquBPXNHmKlF7dAUhiglU_P7gTm74aEPXSvlnbl0TreZkDIpjEHHzXW7Qv5-kJ9H82fgO1Cu7dfxhr4Out1sWpNfs0aOdL1UOzTC2k_pTs8vD8WZ4Wd0vqX-vsM1DprG-SdfARCSN3Ks.H0QgGevyI5gNbT0zecjDH4k2OrLUjBTqkVq9vLNLLqg&dib_tag=se&hvadid=779638053758&hvdev=c&hvexpln=0&hvlocphy=9194700&hvnetw=g&hvociji",
+    "price": 30,
+    "compareAtPrice": "",
+    "photos": [
+      "images/bissel-swivel-vacuum-66a81352-01.jpg",
+      "images/bissel-swivel-vacuum-66a81352-02.jpg",
+      "images/bissel-swivel-vacuum-66a81352-03.jpg"
+    ]
+  },
+  {
     "id": "934b985d-623a-48c7-b2ed-e3027e3698f2",
     "name": "Jewelry Box",
     "description": "Had two levels. In good condition.\nCan deliver",
@@ -7,8 +23,8 @@ window.MOVING_SALE_ITEMS = [
     "status": "available",
     "size": "",
     "productLink": "",
-    "price": 8,
-    "compareAtPrice": 10,
+    "price": 10,
+    "compareAtPrice": "",
     "photos": [
       "images/jewelry-box-934b985d-01.jpg",
       "images/jewelry-box-934b985d-02.jpg",
