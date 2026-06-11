@@ -1,5 +1,48 @@
 window.MOVING_SALE_ITEMS = [
   {
+    "id": "66de1329-fff0-4882-85ea-c8c293e4e4d1",
+    "name": "Large plant with Pot",
+    "description": "Come with a pot. She is not in the healthiest condition. I will spray pesticide before I sell, but I would recommend separating her from other plants.\nCan deliver.",
+    "category": "Home Decor",
+    "status": "available",
+    "size": "",
+    "productLink": "",
+    "price": 10,
+    "compareAtPrice": "",
+    "photos": [
+      "images/large-plant-with-pot-66de1329-01.jpg",
+      "images/large-plant-with-pot-66de1329-02.jpg"
+    ]
+  },
+  {
+    "id": "f2099ee6-1e9a-4ff8-b7de-1abdc85fd264",
+    "name": "Small plants w pot",
+    "description": "Come with pot. $3 each",
+    "category": "Home Decor",
+    "status": "available",
+    "size": "",
+    "productLink": "",
+    "price": 3,
+    "compareAtPrice": "",
+    "photos": [
+      "images/small-plants-w-pot-f2099ee6-01.jpg"
+    ]
+  },
+  {
+    "id": "de32928f-96a8-4132-9449-3b58d860f47d",
+    "name": "Medium plants w Pot",
+    "description": "Come with Pot. $5 each",
+    "category": "Home Decor",
+    "status": "available",
+    "size": "",
+    "productLink": "",
+    "price": 5,
+    "compareAtPrice": "",
+    "photos": [
+      "images/small-plants-w-pot-de32928f-01.jpg"
+    ]
+  },
+  {
     "id": "66a81352-a2ad-4b63-baec-4f55412e3078",
     "name": "Bissel Swivel Vacuum",
     "description": "In very good condition. The photos are a little dirty but I will clean it up.\nEasy steering with multiple brush heads.\nCan deliver.",
@@ -77,49 +120,6 @@ window.MOVING_SALE_ITEMS = [
       "images/aldo-heels-2b022b3d-01.jpg",
       "images/aldo-heels-2b022b3d-02.jpg",
       "images/aldo-heels-2b022b3d-03.jpg"
-    ]
-  },
-  {
-    "id": "e4ac6770-e59a-47b8-946c-c894eb629a8f",
-    "name": "Standing Fan",
-    "description": "Standing rotating fan. Has multiple power levels.\nCan deliver.",
-    "category": "Furniture",
-    "status": "hold",
-    "size": "45\" H",
-    "productLink": "",
-    "price": 20,
-    "compareAtPrice": "",
-    "photos": [
-      "images/standing-fan-e4ac6770-01.jpg",
-      "images/standing-fan-e4ac6770-02.jpg"
-    ]
-  },
-  {
-    "id": "cd1a1bab-c630-4f48-857b-8a88accca08d",
-    "name": "Side table",
-    "description": "In great condition.\nCan deliver.",
-    "category": "Furniture",
-    "status": "hold",
-    "size": "17.5\" D x 20.5\" H",
-    "productLink": "",
-    "price": 20,
-    "compareAtPrice": "",
-    "photos": [
-      "images/side-table-cd1a1bab-01.jpg"
-    ]
-  },
-  {
-    "id": "2af94227-7683-4b83-88e6-fb26ff39f663",
-    "name": "Large Area Rug",
-    "description": "In good condition.\nCan deliver",
-    "category": "Furniture",
-    "status": "hold",
-    "size": "61\" x 89\"",
-    "productLink": "",
-    "price": 30,
-    "compareAtPrice": "",
-    "photos": [
-      "images/large-area-rug-2af94227-01.jpg"
     ]
   },
   {
@@ -296,27 +296,11 @@ window.MOVING_SALE_ITEMS = [
     ]
   },
   {
-    "id": "e7e63dbc-5eb5-42fb-8917-6fcfcd41eb6a",
-    "name": "Extendable dining table",
-    "description": "Extendable dining table in great condition. Can sit 6-8 max.\nCan deliver.",
-    "category": "Furniture",
-    "status": "hold",
-    "size": "27.5\" x 31.5\"/47.5\" (extended)",
-    "productLink": "",
-    "price": 45,
-    "compareAtPrice": "",
-    "photos": [
-      "images/extendable-dining-table-e7e63dbc-01.jpg",
-      "images/extendable-dining-table-e7e63dbc-02.jpg",
-      "images/extendable-dining-table-e7e63dbc-03.jpg"
-    ]
-  },
-  {
     "id": "c62330c8-1ee8-4ac1-8822-d1b759cc05ec",
     "name": "HP 24mh Monitor",
     "description": "Have original packaging.\nCan deliver",
     "category": "Electronic",
-    "status": "available",
+    "status": "hold",
     "size": "23.8\" Diagonal",
     "productLink": "https://www.walmart.com/ip/Hp-24Mh-Fhd-Monitor-Computer-Monitor-With-23-8-Inch-Ips-Display-1080P-Buil/176806768?wmlspartner=wlpa&selectedSellerId=4104&sourceid=dsn_gdn_0c92c416-dbd6-42ec-845c-ecf69af2153d&veh=dsn&wmlspartner=dsn_gdn_0c92c416-dbd6-42ec-845c-ecf69af2153d&cn=0042_fy27_mp_mpa_lo_int_dis_pmax-p13n&wl9=pla&wl11=online&gad_source=1&gad_campaignid=23148469844&gbraid=0AAAAADmfBIpxc-AxqbOmqPnSWDBnmMhSL&gclid=CjwKCAjwwpDQBhAuEiwAa-4Wo28QGstAaLon0x7y17aZE8sn3o7W2Lbotc5LHSf2UVM7cRqjrTjBfRoCY",
     "price": 65,
