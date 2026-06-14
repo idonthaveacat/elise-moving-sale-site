@@ -1,5 +1,79 @@
 window.MOVING_SALE_ITEMS = [
   {
+    "id": "acda25a6-4711-4d8e-b1f0-d0f10d3b9f6d",
+    "name": "Dining Plates x2",
+    "description": "In good condition! Dishwasher safe.\nCan deliver.",
+    "category": "Kitchen/Cooking",
+    "status": "available",
+    "size": "",
+    "productLink": "",
+    "price": 5,
+    "compareAtPrice": "",
+    "photos": [
+      "images/dining-plates-x2-acda25a6-01.jpg",
+      "images/dining-plates-x2-acda25a6-02.jpg"
+    ]
+  },
+  {
+    "id": "4b5168fc-4388-4de6-b7e9-2f469afee176",
+    "name": "Side pillow x2",
+    "description": "Two side pillows. Covers are removable.\nCan deliver",
+    "category": "Household Goods",
+    "status": "available",
+    "size": "18\" x 18\"",
+    "productLink": "",
+    "price": 8,
+    "compareAtPrice": "",
+    "photos": [
+      "images/side-pillow-x2-4b5168fc-01.jpg",
+      "images/side-pillow-x2-4b5168fc-02.jpg"
+    ]
+  },
+  {
+    "id": "a75d5092-2d48-4211-a0dd-c54100db30af",
+    "name": "Big Basket",
+    "description": "Large basket for storage. Can deliver.",
+    "category": "Household Goods",
+    "status": "available",
+    "size": "18\" D x 10\" H",
+    "productLink": "",
+    "price": 8,
+    "compareAtPrice": "",
+    "photos": [
+      "images/big-basket-a75d5092-01.jpg",
+      "images/big-basket-a75d5092-02.jpg"
+    ]
+  },
+  {
+    "id": "3e6531c0-e059-4fd1-afc1-7f51889606f4",
+    "name": "Electric Bug Zapper",
+    "description": "Never used. Can deliver",
+    "category": "Household Goods",
+    "status": "available",
+    "size": "",
+    "productLink": "",
+    "price": 10,
+    "compareAtPrice": "",
+    "photos": [
+      "images/electric-bug-zapper-3e6531c0-01.jpg"
+    ]
+  },
+  {
+    "id": "2df8fb34-0732-4e7d-ae09-3bb2e6d5185e",
+    "name": "Sleeping Bag for Camping",
+    "description": "The product link listed is not 100% the same as the product but it's the closest I can find. \nCan deliver",
+    "category": "Household Goods",
+    "status": "available",
+    "size": "",
+    "productLink": "https://www.amazon.com/Sleeping-Backpacking-Lightweight-Waterproof-Compression/dp/B08DQQ6N95?ref_=ast_sto_dp&th=1",
+    "price": 10,
+    "compareAtPrice": "",
+    "photos": [
+      "images/sleeping-bag-for-camping-2df8fb34-01.jpg",
+      "images/sleeping-bag-for-camping-2df8fb34-02.jpg"
+    ]
+  },
+  {
     "id": "66de1329-fff0-4882-85ea-c8c293e4e4d1",
     "name": "Large plant with Pot",
     "description": "Come with a pot. She is not in the healthiest condition. I will spray pesticide before I sell, but I would recommend separating her from other plants.\nCan deliver.",

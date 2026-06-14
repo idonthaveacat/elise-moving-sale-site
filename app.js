@@ -4,7 +4,7 @@ const categories = [
   "Electronic",
   "Clothing",
   "Kitchen/Cooking",
-  "Skincare/Makeup",
+  "Household Goods",
 ];
 
 let items = normalizeItems(window.MOVING_SALE_ITEMS);
